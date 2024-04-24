@@ -1,3 +1,13 @@
 .loader {
-    /*свг и/или анимация*/
+  width: 108px;
+  height: 108px;
+  background-image: url("./spinner.svg") ;
+  background-size: cover;
+  animation: rotateAnimation 1s linear infinite;
+}
+
+@keyframes rotateAnimation {
+  from { transform: rotate(0deg); }
+
+  to { transform: rotate(360deg); }
 }
